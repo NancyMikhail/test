@@ -1,0 +1,15 @@
+public class step3 {
+  public static boolean contains(int[] arr, int item) {
+      for (int n : arr) {
+         if (item == n) {
+            return true;
+         }
+      }
+      return false;
+   }
+   public static void main(String[] args) {
+          int[] array = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+      System.out.println(contains(array, 18));
+      System.out.println(contains(array, 15));
+   }
+}
